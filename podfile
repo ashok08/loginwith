@@ -13,4 +13,7 @@ pod 'Bolts'
 pod 'FBSDKCoreKit'
 pod 'FBSDKLoginKit'
 pod 'SwiftyJSON'
+pod 'Fabric'
+pod 'TwitterKit'
+pod 'GoogleSignIn'
 end

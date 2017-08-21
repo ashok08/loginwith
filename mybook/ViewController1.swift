@@ -11,22 +11,14 @@ import FBSDKLoginKit
 import FirebaseAuth
 
 
-class ViewController1: UIViewController {
-
+class ViewController1: UIViewController
+{
     @IBOutlet weak var pic: UIImageView!
-  
-  var Value1: UIImage? = UIImage(named: " ")
-        override func viewDidLoad() {
-            super.viewDidLoad()
-             pic.image = Value1
-             }
-
-    @IBAction func logout(_ sender: UIButton) {
-        
-    
-        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "content")
-                     present(vc, animated: true, completion: nil)
-       
-        
-}
+    var Value1: UIImage? = UIImage(named: " ")
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
+        UserDefaults.standard.set(5, forKey: "View")
+        pic.image = Value1
+    }
 }

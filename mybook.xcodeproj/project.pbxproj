@@ -8,13 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		EC35BC1F1F31D386002E2EF9 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC35BC1E1F31D386002E2EF9 /* ViewController1.swift */; };
+		EC65510B1F3B24B8005343DF /* social-media-login_1.png in Resources */ = {isa = PBXBuildFile; fileRef = EC65510A1F3B24B8005343DF /* social-media-login_1.png */; };
+		EC6862571F3AF919008F52F4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC6862561F3AF919008F52F4 /* Default-568h@2x.png */; };
 		EC6876F01F330D600057C21A /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6876EF1F330D600057C21A /* ContentViewController.swift */; };
-		EC6876F21F33112B0057C21A /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC6876F11F33112B0057C21A /* image.jpg */; };
-		EC7930281F31A52B0029E620 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC7930271F31A52B0029E620 /* GoogleService-Info.plist */; };
 		EC7E68251F30A8ED0011596F /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E68241F30A8ED0011596F /* NextViewController.swift */; };
 		EC7E68271F30ADCF0011596F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7E68261F30ADCF0011596F /* CollectionViewCell.swift */; };
 		EC823E9C1F3447FF00610153 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC823E9B1F3447FF00610153 /* iAd.framework */; };
 		EC823E9F1F34519700610153 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC823E9E1F34519700610153 /* TableViewCell.swift */; };
+		EC823F491F4AE88B0015AA05 /* faceb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC823F481F4AE88B0015AA05 /* faceb.jpg */; };
+		EC823F4B1F4AEC290015AA05 /* goog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC823F4A1F4AEC290015AA05 /* goog.jpg */; };
+		EC823F4D1F4AF1590015AA05 /* twitterlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = EC823F4C1F4AF1590015AA05 /* twitterlogo.png */; };
+		EC823F511F4AF6920015AA05 /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = EC823F501F4AF6920015AA05 /* orange.png */; };
+		EC823F551F4AF84F0015AA05 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC823F521F4AF84F0015AA05 /* LoginViewController.swift */; };
+		EC823F561F4AF84F0015AA05 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC823F531F4AF84F0015AA05 /* ResetPasswordViewController.swift */; };
+		EC823F571F4AF84F0015AA05 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC823F541F4AF84F0015AA05 /* SignUpViewController.swift */; };
+		EC823F591F4AF85E0015AA05 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC823F581F4AF85E0015AA05 /* HomeViewController.swift */; };
+		EC823F5B1F4B02610015AA05 /* facebook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC823F5A1F4B02610015AA05 /* facebook.jpg */; };
+		EC823F5D1F4B03210015AA05 /* pic1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC823F5C1F4B03210015AA05 /* pic1.jpg */; };
+		EC823F5F1F4B04130015AA05 /* pic3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC823F5E1F4B04130015AA05 /* pic3.jpg */; };
+		EC823F611F4B05780015AA05 /* pic4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC823F601F4B05780015AA05 /* pic4.jpg */; };
+		EC823F631F4B06430015AA05 /* pic5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC823F621F4B06430015AA05 /* pic5.jpg */; };
+		EC8BA2691F4179DD00AA6A1A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EC8BA2681F4179DD00AA6A1A /* GoogleService-Info.plist */; };
+		EC8BA26B1F4187E300AA6A1A /* Googlevc.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8BA26A1F4187E300AA6A1A /* Googlevc.swift */; };
+		EC8BA26D1F41AB4500AA6A1A /* TwitterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8BA26C1F41AB4500AA6A1A /* TwitterVC.swift */; };
+		EC8E71011F470DBD00B854FC /* tweet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC8E71001F470DBD00B854FC /* tweet.jpg */; };
+		EC8E71051F47180700B854FC /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EC8E71041F47180700B854FC /* home.jpg */; };
 		ECFBD1E21F308D2800F0B6CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFBD1E11F308D2800F0B6CD /* AppDelegate.swift */; };
 		ECFBD1E41F308D2800F0B6CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFBD1E31F308D2800F0B6CD /* ViewController.swift */; };
 		ECFBD1E71F308D2800F0B6CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECFBD1E51F308D2800F0B6CD /* Main.storyboard */; };
@@ -28,15 +46,37 @@
 		878B5207E050663555574A8B /* Pods_mybook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mybook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8867F3D9351D389B2BCCE293 /* Pods-mybook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mybook.release.xcconfig"; path = "Pods/Target Support Files/Pods-mybook/Pods-mybook.release.xcconfig"; sourceTree = "<group>"; };
 		EC35BC1E1F31D386002E2EF9 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		EC65510A1F3B24B8005343DF /* social-media-login_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "social-media-login_1.png"; path = "../../../Downloads/social-media-login_1.png"; sourceTree = "<group>"; };
+		EC65510C1F3B3720005343DF /* mybook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mybook-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC6862561F3AF919008F52F4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EC6876EF1F330D600057C21A /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
-		EC6876F11F33112B0057C21A /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image.jpg; path = ../../../Downloads/image.jpg; sourceTree = "<group>"; };
-		EC7930271F31A52B0029E620 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC6C630E1F3C36AC00A8D9A0 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		EC6C63101F3C650400A8D9A0 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		EC6C63121F3C650B00A8D9A0 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		EC7E68241F30A8ED0011596F /* NextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 		EC7E68261F30ADCF0011596F /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		EC823E991F343AC000610153 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		EC823E9B1F3447FF00610153 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		EC823E9D1F34492800610153 /* mybook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = mybook.entitlements; sourceTree = "<group>"; };
 		EC823E9E1F34519700610153 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		EC823F481F4AE88B0015AA05 /* faceb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = faceb.jpg; path = ../../Downloads/faceb.jpg; sourceTree = "<group>"; };
+		EC823F4A1F4AEC290015AA05 /* goog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = goog.jpg; path = ../../Downloads/goog.jpg; sourceTree = "<group>"; };
+		EC823F4C1F4AF1590015AA05 /* twitterlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitterlogo.png; path = ../../Downloads/twitterlogo.png; sourceTree = "<group>"; };
+		EC823F501F4AF6920015AA05 /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orange.png; path = ../../Downloads/orange.png; sourceTree = "<group>"; };
+		EC823F521F4AF84F0015AA05 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../emailAuth/emailAuth/LoginViewController.swift; sourceTree = "<group>"; };
+		EC823F531F4AF84F0015AA05 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResetPasswordViewController.swift; path = ../../emailAuth/emailAuth/ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		EC823F541F4AF84F0015AA05 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../../emailAuth/emailAuth/SignUpViewController.swift; sourceTree = "<group>"; };
+		EC823F581F4AF85E0015AA05 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../emailAuth/emailAuth/HomeViewController.swift; sourceTree = "<group>"; };
+		EC823F5A1F4B02610015AA05 /* facebook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = facebook.jpg; path = ../../Downloads/facebook.jpg; sourceTree = "<group>"; };
+		EC823F5C1F4B03210015AA05 /* pic1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic1.jpg; path = ../../Downloads/pic1.jpg; sourceTree = "<group>"; };
+		EC823F5E1F4B04130015AA05 /* pic3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic3.jpg; path = ../../Downloads/pic3.jpg; sourceTree = "<group>"; };
+		EC823F601F4B05780015AA05 /* pic4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic4.jpg; path = ../../Downloads/pic4.jpg; sourceTree = "<group>"; };
+		EC823F621F4B06430015AA05 /* pic5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pic5.jpg; path = ../../Downloads/pic5.jpg; sourceTree = "<group>"; };
+		EC8BA2681F4179DD00AA6A1A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EC8BA26A1F4187E300AA6A1A /* Googlevc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Googlevc.swift; sourceTree = "<group>"; };
+		EC8BA26C1F41AB4500AA6A1A /* TwitterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterVC.swift; sourceTree = "<group>"; };
+		EC8E71001F470DBD00B854FC /* tweet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tweet.jpg; path = ../../Downloads/tweet.jpg; sourceTree = "<group>"; };
+		EC8E71041F47180700B854FC /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = home.jpg; path = ../../Downloads/home.jpg; sourceTree = "<group>"; };
 		ECFBD1DE1F308D2800F0B6CD /* mybook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mybook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFBD1E11F308D2800F0B6CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECFBD1E31F308D2800F0B6CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
@@ -64,6 +104,9 @@
 		0B07935096A4818EFFB96483 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC6C63121F3C650B00A8D9A0 /* Accounts.framework */,
+				EC6C63101F3C650400A8D9A0 /* Twitter.framework */,
+				EC6C630E1F3C36AC00A8D9A0 /* SafariServices.framework */,
 				EC823E9B1F3447FF00610153 /* iAd.framework */,
 				EC823E991F343AC000610153 /* AdSupport.framework */,
 				878B5207E050663555574A8B /* Pods_mybook.framework */,
@@ -80,11 +123,30 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		EC823F641F4B07170015AA05 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				EC8E71001F470DBD00B854FC /* tweet.jpg */,
+				EC823F5A1F4B02610015AA05 /* facebook.jpg */,
+				EC8E71041F47180700B854FC /* home.jpg */,
+				EC823F4A1F4AEC290015AA05 /* goog.jpg */,
+				EC823F4C1F4AF1590015AA05 /* twitterlogo.png */,
+				EC823F5C1F4B03210015AA05 /* pic1.jpg */,
+				EC823F5E1F4B04130015AA05 /* pic3.jpg */,
+				EC823F601F4B05780015AA05 /* pic4.jpg */,
+				EC823F621F4B06430015AA05 /* pic5.jpg */,
+				EC823F481F4AE88B0015AA05 /* faceb.jpg */,
+				EC823F501F4AF6920015AA05 /* orange.png */,
+			);
+			name = image;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		ECFBD1D51F308D2800F0B6CD = {
 			isa = PBXGroup;
 			children = (
+				EC6862561F3AF919008F52F4 /* Default-568h@2x.png */,
 				ECFBD1E01F308D2800F0B6CD /* mybook */,
-				ECFBD1DF1F308D2800F0B6CD /* Products */,
 				1CD4DFE1EEB767E598101A51 /* Pods */,
 				0B07935096A4818EFFB96483 /* Frameworks */,
 			);
@@ -96,26 +158,36 @@
 				ECFBD1DE1F308D2800F0B6CD /* mybook.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		ECFBD1E01F308D2800F0B6CD /* mybook */ = {
 			isa = PBXGroup;
 			children = (
-				EC823E9E1F34519700610153 /* TableViewCell.swift */,
 				EC823E9D1F34492800610153 /* mybook.entitlements */,
+				ECFBD1E51F308D2800F0B6CD /* Main.storyboard */,
 				ECFBD1E11F308D2800F0B6CD /* AppDelegate.swift */,
 				ECFBD1E31F308D2800F0B6CD /* ViewController.swift */,
 				EC7E68241F30A8ED0011596F /* NextViewController.swift */,
-				ECFBD1E51F308D2800F0B6CD /* Main.storyboard */,
+				EC8BA26A1F4187E300AA6A1A /* Googlevc.swift */,
+				EC8BA26C1F41AB4500AA6A1A /* TwitterVC.swift */,
+				EC823F581F4AF85E0015AA05 /* HomeViewController.swift */,
+				EC823F521F4AF84F0015AA05 /* LoginViewController.swift */,
+				EC823F531F4AF84F0015AA05 /* ResetPasswordViewController.swift */,
+				EC823F541F4AF84F0015AA05 /* SignUpViewController.swift */,
 				EC6876EF1F330D600057C21A /* ContentViewController.swift */,
 				EC35BC1E1F31D386002E2EF9 /* ViewController1.swift */,
 				EC7E68261F30ADCF0011596F /* CollectionViewCell.swift */,
+				EC823E9E1F34519700610153 /* TableViewCell.swift */,
 				ECFBD1EB1F308D2800F0B6CD /* Assets.xcassets */,
-				EC7930271F31A52B0029E620 /* GoogleService-Info.plist */,
 				ECFBD1ED1F308D2800F0B6CD /* LaunchScreen.storyboard */,
-				EC6876F11F33112B0057C21A /* image.jpg */,
+				EC65510A1F3B24B8005343DF /* social-media-login_1.png */,
 				ECFBD1F01F308D2800F0B6CD /* Info.plist */,
+				EC8BA2681F4179DD00AA6A1A /* GoogleService-Info.plist */,
 				ECFBD1E81F308D2800F0B6CD /* mybook.xcdatamodeld */,
+				EC65510C1F3B3720005343DF /* mybook-Bridging-Header.h */,
+				EC823F641F4B07170015AA05 /* image */,
+				ECFBD1DF1F308D2800F0B6CD /* Products */,
 			);
 			path = mybook;
 			sourceTree = "<group>";
@@ -156,6 +228,7 @@
 					ECFBD1DD1F308D2800F0B6CD = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = EPRAJ965WT;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -189,10 +262,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECFBD1EF1F308D2800F0B6CD /* LaunchScreen.storyboard in Resources */,
-				EC7930281F31A52B0029E620 /* GoogleService-Info.plist in Resources */,
+				EC823F5F1F4B04130015AA05 /* pic3.jpg in Resources */,
+				EC65510B1F3B24B8005343DF /* social-media-login_1.png in Resources */,
+				EC823F511F4AF6920015AA05 /* orange.png in Resources */,
 				ECFBD1EC1F308D2800F0B6CD /* Assets.xcassets in Resources */,
+				EC823F4B1F4AEC290015AA05 /* goog.jpg in Resources */,
+				EC8E71051F47180700B854FC /* home.jpg in Resources */,
+				EC823F611F4B05780015AA05 /* pic4.jpg in Resources */,
+				EC823F491F4AE88B0015AA05 /* faceb.jpg in Resources */,
+				EC823F5B1F4B02610015AA05 /* facebook.jpg in Resources */,
+				EC823F631F4B06430015AA05 /* pic5.jpg in Resources */,
+				EC823F4D1F4AF1590015AA05 /* twitterlogo.png in Resources */,
 				ECFBD1E71F308D2800F0B6CD /* Main.storyboard in Resources */,
-				EC6876F21F33112B0057C21A /* image.jpg in Resources */,
+				EC6862571F3AF919008F52F4 /* Default-568h@2x.png in Resources */,
+				EC8BA2691F4179DD00AA6A1A /* GoogleService-Info.plist in Resources */,
+				EC823F5D1F4B03210015AA05 /* pic1.jpg in Resources */,
+				EC8E71011F470DBD00B854FC /* tweet.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +294,7 @@
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -218,6 +304,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -233,9 +320,14 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mybook/Pods-mybook-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -267,14 +359,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC8BA26D1F41AB4500AA6A1A /* TwitterVC.swift in Sources */,
 				EC35BC1F1F31D386002E2EF9 /* ViewController1.swift in Sources */,
+				EC8BA26B1F4187E300AA6A1A /* Googlevc.swift in Sources */,
+				EC823F561F4AF84F0015AA05 /* ResetPasswordViewController.swift in Sources */,
 				EC7E68271F30ADCF0011596F /* CollectionViewCell.swift in Sources */,
+				EC823F591F4AF85E0015AA05 /* HomeViewController.swift in Sources */,
 				ECFBD1EA1F308D2800F0B6CD /* mybook.xcdatamodeld in Sources */,
 				EC823E9F1F34519700610153 /* TableViewCell.swift in Sources */,
 				EC7E68251F30A8ED0011596F /* NextViewController.swift in Sources */,
 				ECFBD1E41F308D2800F0B6CD /* ViewController.swift in Sources */,
 				ECFBD1E21F308D2800F0B6CD /* AppDelegate.swift in Sources */,
 				EC6876F01F330D600057C21A /* ContentViewController.swift in Sources */,
+				EC823F571F4AF84F0015AA05 /* SignUpViewController.swift in Sources */,
+				EC823F551F4AF84F0015AA05 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,11 +494,14 @@
 			baseConfigurationReference = EFBC7B649746C034A2F0EC80 /* Pods-mybook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = EPRAJ965WT;
 				INFOPLIST_FILE = mybook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.intern.mybook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mybook/mybook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -410,11 +511,13 @@
 			baseConfigurationReference = 8867F3D9351D389B2BCCE293 /* Pods-mybook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = EPRAJ965WT;
 				INFOPLIST_FILE = mybook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.intern.mybook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "mybook/mybook-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

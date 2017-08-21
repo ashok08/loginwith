@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDevelopmentRegion</key>
+    <key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
@@ -32,9 +32,45 @@
 				<string>https://mybook-9fcde.firebaseapp.com/__/auth/handler</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>twitterkit-E4ab0nhaHCgpOekwC42EMf4z5</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.780013795-a7kbjetlmbf8ava0amhaomgaohdnuugg</string>
+			</array>
+		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>E4ab0nhaHCgpOekwC42EMf4z5</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict>
+					<key>consumerKey</key>
+					<string>E4ab0nhaHCgpOekwC42EMf4z5</string>
+					<key>consumerSecret</key>
+					<string>Jem1ppHOyKCjtFsW8yBb0jEdqxlQvbR4PzrnLxvA688L7JZFg1
+</string>
+				</dict>
+				<key>KitName</key>
+				<string>gointotweet</string>
+			</dict>
+		</array>
+	</dict>
 	<key>FacebookAppID</key>
 	<string>1964229953590762</string>
 	<key>FacebookDisplayName</key>

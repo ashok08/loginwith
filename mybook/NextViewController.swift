@@ -20,20 +20,17 @@ class NextViewController: UIViewController, UICollectionViewDelegate ,UICollecti
     override func viewDidLoad()
     {
         super.viewDidLoad()
-
+        UserDefaults.standard.set(1, forKey: "View")
         if let _ = FBSDKAccessToken.current()
         {
             fetchListOfUserPhotos()
         }
     }
-  
-     func fetchListOfUserPhotos()
+    
+    func fetchListOfUserPhotos()
     {
-        
-        
         let graphRequest : FBSDKGraphRequest = FBSDKGraphRequest(graphPath: "me/photos", parameters: ["fields":"picture"] )
         graphRequest.start(completionHandler:{ (connection, result, error) -> Void in
-            
             if ((error) != nil)
             {
                 print("Error: \(error)")
@@ -56,8 +53,7 @@ class NextViewController: UIViewController, UICollectionViewDelegate ,UICollecti
         {
             returnValue = userPhotosObject.count
         }
-        
-        return returnValue
+         return returnValue
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -67,33 +63,35 @@ class NextViewController: UIViewController, UICollectionViewDelegate ,UICollecti
         let imageUrl:URL = URL(string: userPhotoUrlString)!
         DispatchQueue.global(qos: .userInitiated).async
             {
-            let imageData:Data = try! Data(contentsOf: imageUrl)
-            DispatchQueue.main.async
-                {
-            let image = UIImage(data: imageData)
-           myCell.image.image = image
-
+                let imageData:Data = try! Data(contentsOf: imageUrl)
+                DispatchQueue.main.async
+                    {
+                        let image = UIImage(data: imageData)
+                        myCell.image.image = image
+                }
         }
+       return myCell
     }
-   
- return myCell
-}
     
     var pass = UIImage(named: "")
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath)
+    {
         let cell = collectionView.cellForItem(at: indexPath) as! CollectionViewCell
         pass = cell.image.image!
         performSegue(withIdentifier: "Segue", sender: self)}
-        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            if segue.identifier == "Segue" {
-                if let viewController = segue.destination as? ViewController1 {
-                   viewController.Value1 = pass
-    
-                }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.identifier == "Segue"
+        {
+            if let viewController = segue.destination as? ViewController1
+            {
+                viewController.Value1 = pass
+                
             }
-       
+        }
+        
     }
-  
+    
 }
 
 
