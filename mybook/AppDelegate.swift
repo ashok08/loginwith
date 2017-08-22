@@ -54,25 +54,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate
         {
             
             VC = storyboard.instantiateViewController(withIdentifier: "content") as! ContentViewController
-        }else if viewCount == 5
+        }else
         {
             
             VC = storyboard.instantiateViewController(withIdentifier: "exit") as! ViewController1
         }
-        else if viewCount == 6
-        {
-            VC = storyboard.instantiateViewController(withIdentifier: "SignUp") as! SignUpViewController
-        }
-        else if viewCount == 7
-        {
-            VC = storyboard.instantiateViewController(withIdentifier: "login") as! LoginViewController
-        } else if viewCount == 8
-        {
-            VC = storyboard.instantiateViewController(withIdentifier: "reset") as! ResetPasswordViewController
-        } else {
-            VC = storyboard.instantiateViewController(withIdentifier: "Home") as! HomeViewController
-        }
-        self.window?.makeKeyAndVisible()
+               self.window?.makeKeyAndVisible()
         self.window?.rootViewController = VC
         
         return true
@@ -117,10 +104,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate
             print(error.localizedDescription)
             return
         }
-        let story = UIStoryboard(name: "Main", bundle: nil)
-        self.window!.rootViewController = story.instantiateViewController(withIdentifier: "google")
-        
-        print("you signed in")
+               print("you signed in")
         guard let authentication = user.authentication else
         {
             return
@@ -129,7 +113,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate
                                                        accessToken: authentication.accessToken)
         Auth.auth().signIn(with: credential) { (user, error)  in
             print("signed in firebase")
+            let story = UIStoryboard(name: "Main", bundle: nil)
+            self.window!.rootViewController = story.instantiateViewController(withIdentifier: "google")
             
+
         }
         
     }

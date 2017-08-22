@@ -7,21 +7,23 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseAuth
+import FBSDKLoginKit
 
 class ContentViewController: UIViewController {
 
     @IBOutlet weak var image: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-         UserDefaults.standard.set(4, forKey: "View")
-        
+                
     }
     
     @IBAction func home(_ sender: UIButton)
     {
- let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MainView")
-        present(vc, animated: true, completion: nil)
-    }
-
-   
+        
+            try! Auth.auth().signOut()
+            print("logged out")
+            FBSDKAccessToken.setCurrent(nil)
+      }
 }
