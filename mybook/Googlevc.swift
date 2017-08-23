@@ -23,7 +23,7 @@ class Googlevc: UIViewController
         
         if (user != nil) {
             name1 = user?.displayName;
-            name.text = name1
+            name.text = "HI " + name1 + "..."
         }
 
         
